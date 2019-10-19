@@ -1,0 +1,19 @@
+No.     Time           Source                Destination           Protocol Length Info
+    232 21.222531      192.168.118.15        128.119.245.12        HTTP     646    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 232: 646 bytes on wire (5168 bits), 646 bytes captured (5168 bits) on interface 0
+Ethernet II, Src: Azurewav_5d:04:8d (dc:85:de:5d:04:8d), Dst: AsustekC_67:19:61 (00:18:f3:67:19:61)
+Internet Protocol Version 4, Src: 192.168.118.15, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 55419, Dst Port: 80, Seq: 1, Ack: 1, Len: 592
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    262 22.580657      128.119.245.12        192.168.118.15        HTTP     294    HTTP/1.1 304 Not Modified 
+
+Frame 262: 294 bytes on wire (2352 bits), 294 bytes captured (2352 bits) on interface 0
+Ethernet II, Src: AsustekC_67:19:61 (00:18:f3:67:19:61), Dst: Azurewav_5d:04:8d (dc:85:de:5d:04:8d)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 192.168.118.15
+Transmission Control Protocol, Src Port: 80, Dst Port: 55419, Seq: 1, Ack: 593, Len: 240
+Hypertext Transfer Protocol
+
+// От клиента был направлен запрос GET, от сервера пришел ответ 304 Not Modified. При коммуникации Клиент-сервер был использован 80-й порт
