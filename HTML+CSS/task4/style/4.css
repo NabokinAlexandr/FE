@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+.task {
+    margin-top: 50px;
+}
+.green-p {
+    color: grey;
+}
+
+.div-height {
+    background-color: red;
+    width: 75px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.div-small {
+    /* background-color: bdiv-blueck; */
+    color: white;
+    background-color: red;
+    border: inherit;
+}
+
+/* Шрифты */
+
+.face-font {
+    font: 15px 'Yeon Sung', cursive;
+}
+
+.import-font {
+    font-family: 'Lobster', cursive;
+}
+
+/* Хлебные крошки */
+
+.div-bread {
+    width: 600px;
+    height: 100px;
+    /* border: 1px solid #171716; */
+    background-color: #cdf7f7;
+    display: flex;
+}
+
+.div-bread div {
+    height: 90px;
+    width: 195px;
+    display: inline-block;
+    position: relative;
+    margin: 3px;
+}
+
+.div-blue {
+    background-color: #03fcf8;
+}
+
+.div-blue__hover:hover {
+    background: #0362fc;
+}
+
+.div-blue__hover:hover::after {
+    border-color: transparent transparent transparent #0362fc;
+}
+
+.div-center::after,
+.div-first::after {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 45px 0 45px 60px;
+    border-color: transparent transparent transparent #03fcf8;
+    display: block;
+    position: relative;
+    right: -194px;
+}
+
+.div-center::after {
+    bottom: 90px;
+    z-index: 30;
+}
+
+.div-center::before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 45px 0 45px 60px;
+    border-color: transparent transparent transparent #cdf7f7;
+    display: block;
+    position: relative;
+    z-index: 40;
+}
+
+.div-first {
+    z-index: 50;
+}
+
+.div-first::after {
+    z-index: 50;
+}
+
+.div-last {
+    z-index: 10;
+}
+.div-deepBlue {
+    background-color: #0362fc;
+}
+
+.div-last::before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 45px 0 45px 60px;
+    border-color: transparent transparent transparent #cdf7f7;
+    display: block;
+    position: relative;
+    z-index: 20;
+}
+
+/* Чекбокс как в IOS */
+
+.checkbox input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	margin: 10px 0 0 20px;
+}
+.checkbox__turn {
+	position: relative;
+	padding: 0 0 0 60px;
+	cursor: pointer;
+}
+.checkbox__turn:before {
+	content: '';
+	position: absolute;
+	top: -4px;
+	left: 0;
+	width: 50px;
+	height: 26px;
+	border-radius: 13px;
+	background: #CDD1DA;
+	transition: .2s;
+}
+.checkbox__turn:after {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: 2px;
+	width: 22px;
+	height: 22px;
+	border-radius: 10px;
+	background: #FFF;
+	transition: .2s;
+}
+.checkbox input:checked + .checkbox__turn:before {
+	background: #9FD468;
+}
+.checkbox input:checked + .checkbox__turn:after {
+	left: 26px;
+}
+
+/* Радиобаттон*/
+.radio-buttons {
+    display: flex;
+}
+input[type=radio]{
+    display: none;
+}
+.radio-label {
+    display: block;
+    height: 20px;
+    width: 20px;
+    border: 2px solid green;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.radio-circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: grey;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+#radio:checked + label[for="radio"] .radio-circle {
+    background: green;
+}
+
+#radio:checked + label[for="radio"] {
+    border: 2px solid green;
+    background: grey;
+}
+
+#radio-second:checked + label[for="radio-second"] .radio-circle {
+    background: green;
+}
+
+#radio-second:checked + label[for="radio-second"] {
+    border: 2px solid green;
+    background: grey;
+}
+
+@font-face {
+	font-family: 'Yeon Sung', cursive;
+	src: url('../fonts/Yeon_Sung/YeonSung-Regular.ttf');
+}
