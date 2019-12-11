@@ -1,0 +1,13 @@
+.left_div {
+    width: 30%;
+    display: inline-block;
+}
+
+.right_div {
+    width: 30%;
+    display: inline-block;
+}
+
+.list_from_zero {
+    list-style-type: decimal-leading-zero;
+}

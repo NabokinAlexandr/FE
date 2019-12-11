@@ -1,0 +1,13 @@
+th, td {
+    border: 1px solid black;
+    
+}
+
+table {
+    width: 25%;
+    border: 1px solid black;
+}
+
+.center_text {
+    text-align: center;
+}

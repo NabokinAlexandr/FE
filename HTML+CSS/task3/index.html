@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML5</title>
+        <link href="./style/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#brum">To PHOTO</a></li>
+                    <li><a href="#price">To price</a></li>
+                    <li><a href="mailto:saashkaaik@gmail.com">Go to mail</a></li>
+                    <li><a href="tel:+380985554433">Call us</a></li>
+                </ul>
+            </nav>
+            <div class="cover">
+                <video width="100%" height="auto" controls="controls" poster="./img/barcelona_main.png">
+                    <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                    <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'>
+                    Ой! Видео ушло погулять :(
+                </video>
+            </div>
+        </header>
+
+        <main class="prime">
+            <section class="primary">
+                <article class="white-bg">
+                    <h1>Барселона — особенный город</h1>
+                    <p>Барселона — особенный город, который обожают путешественники 
+                        со всего мира. Здесь царит <a href="https://www.youtube.com/watch?v=AE_O9tv7v3A" target="_blank">своя атмосфера</a>, 
+                        окунувшись в которую, отвлекаешься от всех забот.
+                    </p>
+                </article>
+                <article>
+                    <h2>Как добраться</h2>
+                    <p>
+                        Многие лоукостеры прилетают в аэропорт Жироны – добраться до Барселоны удобнее всего на автобусе (билет стоит €3-20 в зависимости от перевозчика).
+                        Обратите внимание на то, что сама Жирона – интересный городок с необычной архитектурой, на осмотр которой стоит выделить пару часов, если вы 
+                        прилетаете в аэропорт Жироны.
+                    </p>
+                    <h2>Легенда города</h2>
+                    <p>
+                        Главные сокровища Барселоны — это, конечно же, наследие великого архитектора Гауди. Саграда Фамилия — собор необычайной красоты. 
+                        И если вы думаете, что достаточно осмотреть его снаружи и оценить оригинальную архитектуру, то вы глубоко ошибаетесь — все самое красивое 
+                        спрятано внутри. Но поскольку Собор является самой популярной достопримечательностью города, очереди у кассы всегда длинные. Чтобы избежать
+                        мучительного ожидания, советуем купить входные билеты в Саграда Фамилия заранее.
+                    </p>
+                    <h2>И куда же без гимна местного футбольного клуба!</h2>
+                    <audio controls>
+                        <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis">
+                        <source src="audio/music.mp3" type="audio/mpeg">
+                        Тег audio не поддерживается вашим браузером. 
+                        <a href="audio/music.mp3">Скачайте музыку</a>.
+                    </audio>
+                </article>
+                <article class="white-bg">
+                    <h2>Цена эксурсии</h2>
+                    <p>
+                        <mark>Стоимость с экскурсоводом или аудиогидом одинаковая — €19.50, без них — €15</mark>, но мы все же рекомендуем присоединиться к группе, если вы 
+                        хорошо знаете испанский, английский, немецкий, французский или итальянский языки. В противном случае воспользуйтесь аудиогидом, 
+                        он включает в себ расширенный выбор языков.
+                    </p>
+                    <h2 id="brum">Волшебный парк Гуэль</h2>
+                    <div class="picture-container">
+                        <figure>
+                            <figcaption>Мой любимый парк</figcaption>
+                            <picture>
+                                <source media="(min-width: 650px)" srcset="./img/guel.png">
+                                <img src="./img/guell-park-2.jpg" alt="guell park">
+                            </picture>
+                        </figure>
+                        <figure>
+                            <figcaption>Здесь всегда людно!</figcaption>
+                            <img src="./img/guell-park.jpg" alt="guell park">
+                        </figure>
+                        <figure>
+                            <figcaption>И очень красиво</figcaption>
+                            <img src="./img/guell-park-3.jpg" alt="guell park">
+                        </figure>
+                    </div>
+                    <h2 id="grycolor">А что на счет перекусить?</h2>
+                    <p> Что нужно попробовать в Барселоне из еды?<wbr> Испания и Каталония знамениты морепродуктами, хамоном и вином, но средиземноморская испанская кухня намного 
+                        богаче. Бутифарра, тортилья, пататас браво, гаспачо, фидеуа, чоризо и это только то, с чего нужно начать. А еще в каждом баре вы найдете огромный 
+                        ассортимент монтадитасов или пинчос - маленьких бутербродов со всевозможными начинками. Сортов пива собственного производства в Испании конечно немного, 
+                        но вот сортов вина и местного шампанского кавы здесь несметное количество.
+                    </p>
+                    </section>
+                    <template>
+                        Скрытое поле для JS
+                    </template>
+                </article>
+            </section>
+            <section class="bottom-section">
+                <h2> Что почем </h2>
+                <details id="price">
+                    <summary>Расценки по питанию</summary>
+                    <table>
+                        <tr>
+                            <th>Чек в ресторане</th>
+                            <th>Чек в обычном кафе</th>
+                            <th>Эконом-варианты</th>
+                        </tr>
+                        <tr>
+                            <td>20-30 евро</td>
+                            <td>10-20 евро</td>
+                            <td>до 10 евро</td>
+                        </tr>
+                    </table>
+                </details>
+                <p>Мы открыты для вас каждый день с <time>10:00</time> до <time>18:00</time>.</p>
+                <aside>
+                    <button id="myBtn">Contact form</button>
+                </aside>
+            </section>
+        </main>
+            
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">X</span>
+                <form action="send.php" method="get" class="modal-form">
+                    <input type="text" placeholder="Укажите свой e-mail" name="e-mail">
+                    <input type="text" placeholder="Укажите свое имя" name="Имя">
+                    <p>Какой город вы бы хотели посетить в первую очередь:</p>
+                    <input list="city" placeholder="Выберите город из списка...">
+                        <datalist id="city">
+                            <option value="Барселона"></option>
+                            <option value="Мадрид"></option>
+                            <option value="Малага"></option>
+                        </datalist>
+                    <textarea placeholder="Опишите ваши пожелания"></textarea>
+                    <input type="submit" value="Отправить письмо" class="modal-submit">
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <ul class="footer-menu">
+                <li>&copy; Nabokin Production, 2019</li>
+            </ul>
+        </footer>
+
+        <script src="./script/script.js"></script>
+    </body>
+</html>
+<!-- Теги: футер, хедер, секшн, атикл, эсайд, видео, даталист
+соурс, дэтаилс, мейн, нав, picture, mark, фигур, фигкепшн, темплейт -->
+
+<!-- Добавить wbr & time -->

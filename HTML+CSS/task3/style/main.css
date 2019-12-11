@@ -1,0 +1,265 @@
+/* commom styles */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* header */
+
+header {
+    width: 100%; 
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20%;
+    background: rgba(0,0,0, .8);
+    z-index: 10;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.cover {
+    width: 100%;
+    margin-top: 60px;
+}
+
+/* content styles */
+
+main {
+    margin-top: 40px;
+}
+
+.primary, .bottom-section {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21211f;
+}
+
+.primary h1, 
+.primary h2,
+.primary p, 
+.primary div,
+.bottom-section h2,
+.bottom-section details {
+    width: 74%;
+    margin: 0 auto;
+}
+
+.bottom-section p {
+    margin: 20px auto;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px 0;
+}
+
+.primary p,
+.bottom-section details {
+    padding: 0 0 20px 0;
+}
+
+.primary h1 {
+    font-size: 64px;
+    line-height: normal;
+    padding-bottom: 40px;
+    text-align:  center;
+}
+
+article {
+    margin: 40px 0;
+    padding: 40px 0;
+    background: #f2f2ed;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+audio {
+    margin: 0 auto;
+    display: block;
+    width: 77%;
+}
+
+mark {
+    background-color: #f2f2ed;
+    font-weight: bold;
+}
+
+div.picture-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    overflow: hidden;
+}
+
+figure {
+   width: 33%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.picture-container img,
+.picture-container picture {
+    height: auto;
+    width: 100%;
+}
+
+.hidden1 {
+    display: none;
+}
+
+.hidden2 {
+    display: none;
+}
+
+.active {
+    display: inline-block;
+    position: relative; 
+    width: 200px;
+}
+
+.bottom-section {
+    background: #f2f2ed;
+    padding: 40px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 30;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    width: 50%;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.modal-form input {
+    margin: 20px 0;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.modal-form textarea {
+    margin: 20px 0;
+    height: 120px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+input.modal-submit {
+    width: auto;
+    margin: 0 auto;
+    background: orange;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 0 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* bottom section */
+
+aside {
+    position: fixed;
+    right: 20px;
+    top: 80px;
+    z-index: 20;
+}
+
+button {
+    padding: 10px;
+    background: rgba(255, 153, 0, .8);
+    border: 1px solid #fff;
+    border-radius: 54px;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+}
+button:hover {
+    background: rgb(255, 153, 0);
+}
+/* footer */
+footer {
+    width: 100%;
+    height: 40px;
+    background: rgba(0,0,0, .8);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+}

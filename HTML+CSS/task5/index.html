@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML5</title>
+        <link href="./style/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    </head>
+    <body>
+        <header>
+            <div class="top_logo">
+                <img src="./img/sled (1).png" alt="logo" height="60px" width="auto">
+                <span>Wuff!</span>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#brum">To PHOTO</a></li>
+                    <li class="drop_li"><a href="#price">To price</a>
+                        <ul class="dropdown dropdown_desktop">
+                            <li><a href="#">Sub-1</a></li>
+                            <li class="drop_li2"><a href="#">Sub-2</a>
+                                <ul class="dropdown2">
+                                    <li><a href="#">Sub-4</a></li>
+                                    <li><a href="#">Sub-5</a></li>
+                                    <li><a href="#">Sub-6</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Sub-3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="mailto:saashkaaik@gmail.com">Go to mail</a></li>
+                    <li><a href="tel:+380985554433">Call us</a></li>
+                </ul>
+            </nav>
+            <nav class="navigation_mobile">
+                    <div id="menuToggle">
+                      <!--
+                      A fake / hidden checkbox is used as click reciever,
+                      so you can use the :checked selector on it.
+                      -->
+                      <input type="checkbox" />
+                      
+                      <!--
+                      Some spans to act as a hamburger.
+                      
+                      They are acting like a real hamburger,
+                      not that McDonalds stuff.
+                      -->
+                      <span class="mobile-menu_closed"></span>
+                      <span class="mobile-menu_closed"></span>
+                      <span class="mobile-menu_closed"></span>
+                      
+                      <!--
+                      Too bad the menu has to be inside of the button
+                      but hey, it's pure CSS magic.
+                      -->
+                      <ul id="menu">
+                        <a href="#brum"><li>To photo</li></a>
+                        <li class="drop_li">To price
+                            <ul class="dropdown dropdown_mobile">
+                                <li><a href="#">Sub-1</a></li>
+                                <li class="drop_li2"><a href="#">Sub-2</a>
+                                    <ul class="dropdown2">
+                                        <li><a href="#">Sub-4</a></li>
+                                        <li><a href="#">Sub-5</a></li>
+                                        <li><a href="#">Sub-6</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Sub-3</a></li>
+                            </ul>
+                        </li>
+                        <a href="mailto:saashkaaik@gmail.com"><li>Go to mail</li></a>
+                        <a href="tel:+380985554433"><li>Call us</a>
+                      </ul>
+                </div>
+            </nav>
+            
+        </header>
+
+        <main class="prime">
+            <section class="primary">
+                <article class="white-bg first_article">
+                    <div class="about_company_image_cover">
+                        <img src="./img/cover.jpg" class="about_company_image" alt="Main photo">
+                    </div>
+                        <h1>Лучшие сайты!</h1>
+                        <p class="about_company_p">...от лучшей команды!</p>
+                </article>
+                <article>
+                    <h2>Хотите сайт?</h2>
+                    <p>
+                        Сколько будет стоить сайт и каковы сроки разработки? Без предпроектной работы даже самая опытная студия не даст вам однозначные ответы на 
+                        эти вопросы, но мы понимаем, что как раз эти критерии являются определяющими при выборе разработчика. Поэтому для того, чтобы порядок 
+                        формирования стоимости и сроков был для вас максимально понятен и прозрачен, мы решили подробно расписать, как это происходит в нашей студии.
+                    </p>
+                    <h2>Ваш сайт - ваша выгода</h2>
+                    <p>
+                        Даже если вы продаете товары только в Instagram и получаете хорошую прибыль, помните – страничку можно потерять за пару минут. Поэтому сайт – более надежный инструмент для получения прибыли.
+                    </p>
+                </article>
+                <article class="white-bg advantages_block">
+                    <div>
+                        <span>
+                            <img src="../task5/img/adv1.png" class="advantage_image" alt="">
+                        </span>
+                        <h2>Сила команды</h2>
+                        <p>По одиночке каждый из нас - талантлив, но когда мы работаем вместе - мы создаем самые настоящие шедевры!</p>
+                    </div>
+                    <div>
+                        <span>
+                            <img src="../task5/img/adv2.png" class="advantage_image2" alt="">
+                        </span>
+                        <h2>Элитная порода</h2>
+                        <p>Только посмотрите на нас! Только отборные мастера своего дела с богатой родословной!</p>
+                    </div>
+                    <div>
+                        <span>
+                            <img src="../task5/img/adv3.png" class="advantage_image" alt="">
+                        </span>
+                        <h2>Крутость</h2>
+                        <p>Мастерство - наше второе имя. Только топовые решения для любимых клиентов</p>
+                    </div>
+                    <div>
+                        <span>
+                            <img src="../task5/img/adv4.png" class="advantage_image" alt="">
+                        </span>
+                        <h2>Молимся на клиентов</h2>
+                        <p>Да, именно так. Когда приходится - и в прямом смысле</p>
+                    </div>
+                    <div>
+                        <span>
+                            <img src="../task5/img/adv5.png" class="advantage_image" alt="">
+                        </span>
+                        <h2>Готовы к любым испытаниям</h2>
+                        <p>Что тут добавить - нам и сам черт не страшен! Давайте сюда ваши запросы.</p>
+                    </div>
+                    <div>
+                        <span>
+                            <img src="../task5/img/adv6.png" class="advantage_image" alt="">
+                        </span>
+                        <h2>Раскладываем по полочкам</h2>
+                        <p>Даже если вы ничего не знаете о том, что притаилось за обложкой сайта, мы найдем способ вам все объяснить</p>
+                    </div>
+                </article>
+            </section>
+                <aside>
+                    <button id="myBtn"></button>
+                </aside>
+            <section class="about_crew">
+                <h1>А вот и топ-команда!</h1>
+                <div class="slider-container">
+                    <div class="slider_menu">
+                      <label for="slide-dot-1"></label>
+                      <label for="slide-dot-2"></label>
+                    </div>
+                    
+                    <input id="slide-dot-1" type="radio" name="slides" checked>
+                      <div class="slide slide-1">
+                        <div class="column">
+                            <div class="card">
+                              <img class="photo_crew" src="./img/dog1.jpg" alt="Jane">
+                              <div class="container">
+                                <h2>Jane Doe</h2>
+                                <p class="title">CEO &amp; Founder</p>
+                                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                <p><a href="mailto:saashkaaik@gmail.com">example@example.com</a></p>
+                                <p><button class="button">Contact</button></p>
+                              </div>
+                            </div>
+                          </div>
+                        
+                          <div class="column">
+                            <div class="card">
+                              <img class="photo_crew" src="./img/dog3.jpg" alt="Mike">
+                              <div class="container">
+                                <h2>Lilit Rain</h2>
+                                <p class="title">Art Director</p>
+                                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                <p><a href="mailto:saashkaaik@gmail.com">example@example.com</a></p>
+                                <p><button class="button">Contact</button></p>
+                              </div>
+                            </div>
+                          </div>
+        
+                          <div class="column">
+                            <div class="card">
+                              <img class="photo_crew" src="./img/83589049.jpg" alt="Jane">
+                              <div class="container">
+                                <h2>Edward Chan</h2>
+                                <p class="title">CEO &amp; Founder</p>
+                                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                <p><a href="mailto:saashkaaik@gmail.com">example@example.com</a></p>
+                                <p><button class="button">Contact</button></p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    
+                    <input id="slide-dot-2" type="radio" name="slides">
+                      <div class="slide slide-2">
+                        <div class="column">
+                            <div class="card">
+                              <img class="photo_crew" src="./img/dog4.jpg" alt="Jane">
+                              <div class="container">
+                                <h2>Garry Bran</h2>
+                                <p class="title">CEO &amp; Founder</p>
+                                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                <p><a href="mailto:saashkaaik@gmail.com">example@example.com</a></p>
+                                <p><button class="button">Contact</button></p>
+                              </div>
+                            </div>
+                          </div>
+                        
+                          <div class="column">
+                            <div class="card">
+                              <img class="photo_crew" src="./img/dog2.jpg" alt="John">
+                              <div class="container">
+                                <h2>Neil Low</h2>
+                                <p class="title">Designer</p>
+                                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                                <p><a href="mailto:saashkaaik@gmail.com">example@example.com</a></p>
+                                <p><button class="button">Contact</button></p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+            </section>
+            <section class="contact_us">
+                <h1 class="contacts_title">FIND US:</h1>
+                <div class="contacts">
+                    <div class="contacts_block contacts_block-1">
+                        <div><h3>General Contact</h3>
+                            <p><a href="mailto:saashkaaik@gmail.com">@Mail</a></p>
+                            <p><a href="tel:+380985554433">Phone</a></p>
+                            <p>Voskresenska str 7</p>
+                            <p><a href="callto://+1234567890">Skype</a></p>
+                        </div>
+                        <div><h3>Other Contact</h3>
+                            <p><a href="mailto:saashkaaik@gmail.com">@Mail</a></p>
+                            <p><a href="tel:+380985554433">Phone</a></p>
+                            <p>Voskresenska str 7</p>
+                            <p><a href="callto://+1234567890">Skype</a></p>
+                        </div> 
+                    </div>
+                    <div class="contacts_block contacts_block-2">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.5259750673904!2d30.59866141503211!3d50.46855119394255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d01f7a5e674b%3A0x91879c7e6d195eb0!2z0YPQuy4g0JLQvtGB0LrRgNC10YHQtdC90YHQutCw0Y8sIDcsINCa0LjQtdCyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1573201814854!5m2!1sru!2sua" width="100%" height="270px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Its a modal!!! -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">X</span>
+                <form action="send.php" method="get" class="modal-form">
+                    <input type="text" placeholder="Укажите свой e-mail" name="e-mail">
+                    <input type="text" placeholder="Укажите свое имя" name="Имя">
+                    <p>Какой город вы бы хотели посетить в первую очередь:</p>
+                    <input list="city" placeholder="Выберите город из списка...">
+                        <datalist id="city">
+                            <option value="Барселона"></option>
+                            <option value="Мадрид"></option>
+                            <option value="Малага"></option>
+                        </datalist>
+                    <textarea placeholder="Опишите ваши пожелания"></textarea>
+                    <input type="submit" value="Отправить письмо" class="modal-submit">
+                </form>
+            </div>
+        </div>
+        <!-- Its a modal!!!! -->
+        <footer>
+            <div class="socnetwork-icons_container">
+                <a href="https://www.facebook.com/" target="_blank"><div class="icon_footer icon_fb"></div></a>
+                <a href="https://www.instagram.com/" target="_blank"><div class="icon_footer icon_instag"></div></a>
+                <a href="https://twitter.com/" target="_blank"><div class="icon_footer icon_twit"></div></a>
+                <a href="https://github.com/" target="_blank"><div class="icon_footer icon_git"></div></a>
+            </div>
+            <div class="footer_copyright">&copy; Nabokin Production, 2019
+            </div>
+        </footer>
+
+        <script src="./script/script.js"></script>
+    </body>
+</html>
+
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325515.68167154683!2d30.252500475115305!3d50.402136747620425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1573199369765!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> -->
